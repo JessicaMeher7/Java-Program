@@ -8,6 +8,7 @@ public class GCD_2Num
 	int num1 = reader.nextInt();
 	System.out.print("\nEnter the second number = ");
 	int num2 = reader.nextInt();
+	reader.close();
 	int gcd = 1;
 	for (int i =2; i <= num1 && i <= num2; i++)
         {
